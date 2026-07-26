@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人博客</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 头部导航 -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="index.html">📝 我的博客</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="#about">关于我</a></li>
+                    <li><a href="#articles">文章</a></li>
+                    <li><a href="#contact">联系</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 主要内容区 -->
+    <main class="main-content">
+        <!-- 欢迎区域 -->
+        <section class="hero">
+            <div class="container">
+                <h1>欢迎来到我的博客</h1>
+                <p class="subtitle">分享技术、生活与思考</p>
+            </div>
+        </section>
+
+        <!-- 关于我 -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>关于我</h2>
+                <div class="about-content">
+                    <div class="avatar">
+                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=blogger" alt="头像">
+                    </div>
+                    <div class="about-text">
+                        <p>你好！我是一名热爱技术和写作的博主。在这里，我会分享我的学习心得、技术教程以及生活中的点滴感悟。</p>
+                        <p>我相信持续学习和分享能够让我们共同成长。希望我的文章能对你有所帮助！</p>
+                        <div class="skills">
+                            <span class="skill-tag">前端开发</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">写作</span>
+                            <span class="skill-tag">摄影</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 文章列表 -->
+        <section id="articles" class="articles-section">
+            <div class="container">
+                <h2>最新文章</h2>
+                <div class="articles-grid">
+                    <!-- 文章卡片 1 -->
+                    <article class="article-card">
+                        <div class="card-image">
+                            <img src="https://picsum.photos/seed/tech1/400/250" alt="文章封面">
+                        </div>
+                        <div class="card-content">
+                            <span class="category">技术教程</span>
+                            <h3>如何开始学习前端开发</h3>
+                            <p class="excerpt">前端开发是一个充满挑战和乐趣的领域。本文将为你介绍入门前端开发需要掌握的基础知识和技能...</p>
+                            <div class="card-meta">
+                                <span class="date">📅 2024年1月15日</span>
+                                <span class="read-time">⏱️ 5分钟阅读</span>
+                            </div>
+                            <a href="#" class="read-more">阅读全文 →</a>
+                        </div>
+                    </article>
+
+                    <!-- 文章卡片 2 -->
+                    <article class="article-card">
+                        <div class="card-image">
+                            <img src="https://picsum.photos/seed/life1/400/250" alt="文章封面">
+                        </div>
+                        <div class="card-content">
+                            <span class="category">生活感悟</span>
+                            <h3>保持学习的三个好习惯</h3>
+                            <p class="excerpt">在快速变化的时代，持续学习变得尤为重要。分享三个我坚持多年的学习习惯，帮助你更高效地成长...</p>
+                            <div class="card-meta">
+                                <span class="date">📅 2024年1月10日</span>
+                                <span class="read-time">⏱️ 3分钟阅读</span>
+                            </div>
+                            <a href="#" class="read-more">阅读全文 →</a>
+                        </div>
+                    </article>
+
+                    <!-- 文章卡片 3 -->
+                    <article class="article-card">
+                        <div class="card-image">
+                            <img src="https://picsum.photos/seed/code1/400/250" alt="文章封面">
+                        </div>
+                        <div class="card-content">
+                            <span class="category">编程技巧</span>
+                            <h3>JavaScript 异步编程详解</h3>
+                            <p class="excerpt">深入理解 Promise、async/await 等异步编程概念，让你的代码更加优雅和高效...</p>
+                            <div class="card-meta">
+                                <span class="date">📅 2024年1月5日</span>
+                                <span class="read-time">⏱️ 8分钟阅读</span>
+                            </div>
+                            <a href="#" class="read-more">阅读全文 →</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 联系我 -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>联系我</h2>
+                <p class="contact-intro">如果你有任何问题或合作意向，欢迎通过以下方式联系我：</p>
+                <div class="contact-links">
+                    <a href="mailto:your-email@example.com" class="contact-item">
+                        <span class="icon">📧</span>
+                        <span>发送邮件</span>
+                    </a>
+                    <a href="#" class="contact-item">
+                        <span class="icon">💬</span>
+                        <span>微信公众号</span>
+                    </a>
+                    <a href="#" class="contact-item">
+                        <span class="icon">🐙</span>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="#" class="contact-item">
+                        <span class="icon">🐦</span>
+                        <span>微博</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 我的个人博客。All rights reserved.</p>
+            <p>用 ❤️ 制作 | <a href="#">订阅 RSS</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
